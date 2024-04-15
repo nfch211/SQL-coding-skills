@@ -1,0 +1,295 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style> 
+    
+            /* Set the content of table  
+            using css properties */ 
+            table { 
+                width: 700px; 
+                margin: auto; 
+                text-align: center; 
+                table-layout: fixed; 
+            } 
+    
+            /* Applying css properties  
+            to table components */ 
+            table, 
+            td, 
+            tr { 
+                padding: 12px; 
+                color: yellow; 
+                background: #f2f2f2; 
+                border: 1px solid black; 
+                border-collapse: collapse; 
+                font-size: 20px; 
+                font-family: 'Lucida Sans',  
+                    'Lucida Sans Regular', 
+                    'Lucida Grande',  
+                    'Lucida Sans Unicode', 
+                    Geneva, Verdana, sans-serif; 
+            } 
+    
+            /* Apply css properties to th */ 
+            th { 
+                color: black; 
+                border: 1px solid black; 
+                border-collapse: collapse; 
+                background: red; 
+            } 
+    
+            /* Apply hover effect to td */ 
+            td:hover { 
+                background: yellow; 
+            } 
+        </style> 
+    </head>
+    <body>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>brand_id</th>
+      <th>type</th>
+      <th>visit_datetime</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>12417500</td>
+      <td>1731</td>
+      <td>1</td>
+      <td>2014-06-24</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>12417500</td>
+      <td>3068</td>
+      <td>0</td>
+      <td>2014-05-21</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>12417500</td>
+      <td>3438</td>
+      <td>1</td>
+      <td>2014-05-13</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>12417500</td>
+      <td>3983</td>
+      <td>1</td>
+      <td>2014-07-28</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>12417500</td>
+      <td>5478</td>
+      <td>1</td>
+      <td>2014-07-20</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>12417500</td>
+      <td>6617</td>
+      <td>0</td>
+      <td>2014-05-21</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>12417500</td>
+      <td>7061</td>
+      <td>1</td>
+      <td>2014-06-11</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>12417500</td>
+      <td>7208</td>
+      <td>0</td>
+      <td>2014-05-21</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>12417500</td>
+      <td>7963</td>
+      <td>1</td>
+      <td>2014-04-21</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>12417500</td>
+      <td>7963</td>
+      <td>1</td>
+      <td>2014-07-04</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>12417500</td>
+      <td>8689</td>
+      <td>1</td>
+      <td>2014-07-27</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>12417500</td>
+      <td>8689</td>
+      <td>1</td>
+      <td>2014-05-25</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>12417500</td>
+      <td>10082</td>
+      <td>1</td>
+      <td>2014-05-02</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>12417500</td>
+      <td>10570</td>
+      <td>1</td>
+      <td>2014-08-05</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>12417500</td>
+      <td>12717</td>
+      <td>1</td>
+      <td>2014-05-13</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>12417500</td>
+      <td>15138</td>
+      <td>1</td>
+      <td>2014-07-20</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>12417500</td>
+      <td>15173</td>
+      <td>1</td>
+      <td>2014-04-19</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>12417500</td>
+      <td>15584</td>
+      <td>0</td>
+      <td>2014-05-21</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>12417500</td>
+      <td>15584</td>
+      <td>0</td>
+      <td>2014-05-21</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>12417500</td>
+      <td>15831</td>
+      <td>1</td>
+      <td>2014-05-24</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>12417500</td>
+      <td>16096</td>
+      <td>1</td>
+      <td>2014-05-05</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>12417500</td>
+      <td>16406</td>
+      <td>1</td>
+      <td>2014-07-22</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>12417500</td>
+      <td>16846</td>
+      <td>1</td>
+      <td>2014-07-18</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>12417500</td>
+      <td>16913</td>
+      <td>1</td>
+      <td>2014-05-17</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>12417500</td>
+      <td>17959</td>
+      <td>1</td>
+      <td>2014-05-25</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>12417500</td>
+      <td>17959</td>
+      <td>1</td>
+      <td>2014-05-27</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>12417500</td>
+      <td>18024</td>
+      <td>1</td>
+      <td>2014-05-13</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>12417500</td>
+      <td>24601</td>
+      <td>1</td>
+      <td>2014-07-18</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>12417500</td>
+      <td>24658</td>
+      <td>0</td>
+      <td>2014-05-21</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>12417500</td>
+      <td>24819</td>
+      <td>1</td>
+      <td>2014-07-12</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>12417500</td>
+      <td>28411</td>
+      <td>1</td>
+      <td>2014-08-08</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>12417500</td>
+      <td>29099</td>
+      <td>1</td>
+      <td>2014-05-10</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>12417500</td>
+      <td>29418</td>
+      <td>0</td>
+      <td>2014-05-21</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+    </html>
+    
